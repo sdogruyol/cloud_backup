@@ -1,0 +1,7 @@
+dropbox:
+    app_key: Your Dropbox App Key
+    app_secret: Your Dropbox App Secret
+database:
+    db_name: Your Database Name
+    db_password: Your Database Password
+    db_user: Your Database User Name
