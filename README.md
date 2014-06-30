@@ -1,29 +1,37 @@
-# CloudBackup
+## What is it?
 
-TODO: Write a gem description
+A tiny Ruby program to dump your Database and store it in the Cloud.
 
-## Installation
+#### Currently supported DBs
+- MySQL
 
-Add this line to your application's Gemfile:
+#### Currently supported Clouds
+- Dropbox
 
-    gem 'cloud_backup'
+##Requirements
 
-And then execute:
+The only requirements are working a Ruby installation and RubyGems.
 
-    $ bundle
+For Dropbox : You also need to have a working Dropbox account of your own and need to create an app for yourself.
 
-Or install it yourself as:
+##Configuration
 
-    $ gem install cloud_backup
+All the configuration including your Dropbox app token and secret is done via settings.yml
 
-## Usage
+##How to
 
-TODO: Write usage instructions here
+Just clone this repo
 
-## Contributing
+git clone https://github.com/Sdogruyol/dump-to-cloud
 
-1. Fork it ( https://github.com/[my-github-username]/cloud_backup/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+And bundle.
+
+https://github.com/Sdogruyol/dump-to-cloud
+
+Then
+
+ruby dump.rb
+
+##Planned
+- Add more databases (E.g Postgres)
+- Add more cloud providers (E.g Google Drive, S3)
