@@ -1,1 +1,1 @@
-require 'cli'
+require 'cloud_backup/cli'
