@@ -18,19 +18,21 @@ For Dropbox : You also need to have a working Dropbox account of your own and ne
 
 All the configuration including your Dropbox app token and secret is done via settings.yml
 
-##How to
+## Installation
 
-Just clone this repo
+    gem install cloud_backup
 
-git clone https://github.com/Sdogruyol/dump-to-cloud
+## Usage
 
-And bundle.
+### For File Backup
 
-https://github.com/Sdogruyol/dump-to-cloud
+    cloud_backup pat/to/your/file
 
-Then
+### For Database Backup
 
-ruby dump.rb
+You need to have you Database configured.
+
+    cloud_backup
 
 ##Planned
 - Add more databases (E.g Postgres)
