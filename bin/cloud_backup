@@ -1,6 +1,12 @@
 #!/usr/bin/env ruby
 
-require '../lib/cloud_backup/cli'
+# encoding: utf-8
 
-Cli.new
+if RUBY_VERSION >= '1.9.2'
+  $LOAD_PATH.unshift(File.dirname(File.realpath(__FILE__)) + '/../lib')
 
+
+else
+  puts 'Cloud Backup supports only Ruby 1.9.2+'
+  exit(-1)
+end
