@@ -4,7 +4,7 @@ require 'yaml'
 class Dumper
 
   def initialize
-    settings = YAML.load_file('settings.yml')
+    settings = YAML.load_file('../settings.yml')
     @app_key = settings['dropbox']['app_key']
     @app_secret = settings['dropbox']['app_secret']
     @db_name = settings['database']['db_name']

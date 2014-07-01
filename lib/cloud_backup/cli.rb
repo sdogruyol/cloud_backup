@@ -1,7 +1,7 @@
 require_relative 'dumper'
 
-class CLI   
-  def initialize
+class Cli
+def initialize
     @dumper = Dumper.new
     puts 'What type of dump do you want?'
     puts '1. Auto Dump (Auto Dumps the Db and Stores it to Dropbox)'
