@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require '../lib/cloud_backup/cli'
+
+Cli.new
+
