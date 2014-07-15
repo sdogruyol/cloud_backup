@@ -35,5 +35,6 @@ You need to have you Database configured.
     cloud_backup
 
 ##Planned
+
 - Add more databases (E.g Postgres)
 - Add more cloud providers (E.g Google Drive, S3)
