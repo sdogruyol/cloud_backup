@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/Sdogruyol/cloud_backup/badges/gpa.svg)](https://codeclimate.com/github/Sdogruyol/cloud_backup)
 ## What is it?
 
 A tiny Ruby program to dump your Database and store it in the Cloud.
