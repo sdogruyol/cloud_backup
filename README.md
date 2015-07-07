@@ -27,7 +27,7 @@ All the configuration including your Dropbox app token and secret is done via se
 
 ### For File Backup
 
-    cloud_backup pat/to/your/file
+    cloud_backup /path/to/your/file
 
 ### For Database Backup
 
